@@ -13,39 +13,39 @@ var elBoxOne = document.querySelector('.box__one')
 var elBoxTwo = document.querySelector('.box__two')
 var elTimer = document.querySelector('.timer')
 var count = 0
+var count2 = 6
 setInterval(()=>{
     count = count + 1
-    if(count >= 1 && count <= 3){
+    count2 = count2 -1
+    elTimer.textContent = count2
+    if(count2 == 0){
+        count2 = 6
+    }
+    if(count >= 1 && count <= 5){
         elBox1.classList.add('red')
         elBox2.classList.remove('yellow')   //qizil
         elBox3.classList.remove('green')
         elBoxOne.classList.remove('red')
-        elBoxTwo.classList.remove('green')
-    }
-    if(count == 3 && count <= 6){
-        elBoxOne.classList.remove('red')
         elBoxTwo.classList.add('green')
     }
-    if(count == 6 || count == 8){
+    if(count >= 7 && count <= 12){
         elBox1.classList.remove('red')
-        elBox2.classList.add('yellow')     // sariq
+        elBox2.classList.add('yellow')   //sariq
         elBox3.classList.remove('green')
         elBoxOne.classList.remove('red')
         elBoxTwo.classList.remove('green')
     }
-    if(count >= 8 && count <= 10){
+    if(count >= 13 && count <= 18){
         elBox1.classList.remove('red')
-        elBox2.classList.remove('yellow')
-        elBox3.classList.add('green')    // yashil
-    }
-    if(count == 10 && count <= 13){
+        elBox2.classList.remove('yellow')   //yashil
+        elBox3.classList.add('green')
         elBoxOne.classList.add('red')
         elBoxTwo.classList.remove('green')
     }
-    if(count >= 13){
+    if(count >= 18){
         count = 0
     }
-    console.log(count);
+     console.log(count);
 }, 1000)
 
 

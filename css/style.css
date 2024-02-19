@@ -10,12 +10,12 @@ ul,ol{
     list-style-type: none;
 }
 .container{
-    width: 1300px;
+    width: 1136px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    min-height: 100vh;
+    justify-content: space-around;
+    /* min-height: 100vh; */
 }
 body{
     background: url('https://www.xt-pigment.com/uploads/ruyrtf-1.png');
@@ -26,68 +26,62 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
+    margin-top: 40px;
+    /*border: 1px solid black;
     padding: 15px;
     box-shadow: 0px 0px 30px 0px white;
-    background-color: #f0f0f0;
-    /* background-drop: blur(20px); */
+    background-color: #f0f0f0; 
+    background-drop: blur(20px); 
     border: 1px solid #ccc;
-    width: 1200px;
-    height: 1200px;
-    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px; */
 }
 
-.wrapper{
-    margin: left;
-    display: inline-block;
-    margin-top: 100px;
-    width: 300px;
-    height: 900px;
+ .wrapper{
+    width: 80px;
+    height: 200px;
     background-color: black;
     border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+    padding: 8px;
+    text-align: center;
+    margin-right: 40px;
 }
-.box1 , .box2 , .box3{
-    width: 280px;
-    height: 280px;
+ .box1 , .box2 , .box3{
+    width: 60px;
+    height: 60px;
     background-color: grey;
     border-radius: 50%;
-}
-.wrapper2{
-    margin: right;
-    display: inline-block;
-    margin-top: 100px;
-    width: 300px;
-    height: 600px;
-    background-color: black;
-    border-radius: 15px;
-    padding-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-}
-.box__one, .box__two{
-    width: 250px;
-    height: 250px;
-    background-color: grey;
-    border-radius: 50%;
-    margin-bottom: 30px;
+    margin-top: 2px;
 }
 .box__timer{
-    margin-top: 100px;
-    width: 300px;
-    height: 300px;
+    width: 80px;
+    height: 80px;
     background-color: black;
     border-radius: 15px;
-    /* margin: 0 auto; */
-    margin-top: 100px;
+    padding: 8px;
+    text-align: center;
+    h2{
+        font-size: 50px;
+        color: white;
+    }
 }
-
-
+.wrapper2{
+   width: 80px;
+   height: 140px;
+   background-color: black;
+   border-radius: 15px;
+   padding: 8px;
+   text-align: center;
+   margin-left: 80px;
+}
+.box__one, .box__two{
+   width: 60px;
+   height: 60px;
+   background-color: grey;
+   border-radius: 50%;
+   margin-top: 2px;
+}
 
 
 
