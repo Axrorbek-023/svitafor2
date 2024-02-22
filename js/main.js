@@ -28,7 +28,7 @@ setInterval(()=>{
         elBoxOne.classList.remove('red')
         elBoxTwo.classList.add('green')
     }
-    if(count >= 7 && count <= 12){
+    if(count >= 7 && count <= 11){
         elBox1.classList.remove('red')
         elBox2.classList.add('yellow')   //sariq
         elBox3.classList.remove('green')
